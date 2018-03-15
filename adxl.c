@@ -620,7 +620,7 @@ struct axisvalues ADXL362_ReadXNew(void){
 
 
 	rxG = ADXL362_ReadX();
-	//xil_printf("X = ");
+	////xil_printf("X = ");
 
 
 	// Sign is MSB. If 1 -> Negative Number, else Positive Number
